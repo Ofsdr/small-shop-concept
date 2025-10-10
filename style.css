@@ -17,12 +17,10 @@ header {
   width: 100%;
   background: black;
 }
-
-.heading ul {
+header .heading ul {
   display: flex;
 }
-
-.logo a {
+header .heading ul .logo a {
   color: white;
   transition-duration: 1s;
   font-weight: 800;
@@ -172,6 +170,7 @@ header a ion-icon {
 .section2 .container {
   display: flex;
   width: 100%;
+  height: -moz-max-content;
   height: max-content;
   flex-wrap: wrap;
   justify-content: center;
@@ -197,7 +196,7 @@ header a ion-icon {
 }
 
 .items {
-  background-color: #3a3F58;
+  background-color: #3a3f58;
 }
 
 .section2 .container .items .price {
@@ -207,12 +206,12 @@ header a ion-icon {
   width: 100%;
   color: rgb(255, 255, 255);
   font-weight: 650;
-  background-color: #3a3F58;
+  background-color: #3a3f58;
 }
 
 .section2 .container .items .info {
   padding-left: 10px;
-  background-color: #3a3F58;
+  background-color: #3a3f58;
   color: #fff;
 }
 
@@ -503,6 +502,4 @@ footer {
     display: flex;
     flex-wrap: nowrap;
   }
-}
-
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */
