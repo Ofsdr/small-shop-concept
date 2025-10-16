@@ -7,3 +7,6 @@ close.addEventListener("click", () => {
 open.addEventListener("click", () => {
   menu.style.visibility = "visible";
 });
+
+const cartAddition = document.getElementById("card")
+cartAddition.classList.add("text-bg-secondary")
