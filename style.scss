@@ -1,3 +1,5 @@
+
+
 * {
   margin: 0;
   padding: 0;
@@ -5,10 +7,12 @@
   font-family: Arial Black, sans-serif;
 }
 body {
-  background-color: #ece6cd;
+  background-color: #0D1117;
 }
 
-
+.card-back {
+  background-color: #E5E7EB;
+}
 
 
 .img-slider img {
@@ -151,6 +155,10 @@ footer {
 }
 
 .footer1 {
+  ion-icon {
+    margin-top: 20px;
+    font-size: 30px;
+  }
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -402,4 +410,31 @@ footer {
     display: flex;
     flex-wrap: nowrap;
   }
+}
+.navbarstyle {
+  background-color: #0D1117;
+  color: #FFFFFF;
+  .nav-link {
+    color: #FFFFFF;
+    a {
+      color:#FFFFFF;
+    }
+    &.active {
+      color: #ffffff;
+    }
+  }
+  .navbar-collapse {
+    color: #FFFFFF;
+  }
+  .navbar-brand {
+    color: #ffffff;
+  }
+  .btn {
+    background-color: #0A84FF;
+    color: #FFFFFF;
+  }
+
+}
+.cardColor {
+  background-color: #161B22;
 }
