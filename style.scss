@@ -183,8 +183,8 @@ footer {
   background-color: black;
 }
 .social-media a:hover ion-icon {
-  color: red;
-  transform: translateY(5px);
+  color: rgb(42, 137, 247);;
+  
 }
 .footer2 {
   display: flex;
@@ -199,7 +199,7 @@ footer {
   transition-duration: 1s;
 }
 .footer0:hover {
-  color: rgb(243, 168, 7);
+  color: rgb(42, 137, 247);
 }
 .footer2 .heading {
   font-weight: 900;
@@ -213,7 +213,7 @@ footer {
   justify-content: center;
 }
 .footer2 .heading:hover {
-  color: rgb(243, 168, 7);
+  color: rgb(42, 137, 247);
 }
 .footer2 .div:hover {
   transform: scale(1.05);

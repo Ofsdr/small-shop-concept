@@ -198,8 +198,7 @@ footer {
 }
 
 .social-media a:hover ion-icon {
-  color: red;
-  transform: translateY(5px);
+  color: rgb(42, 137, 247);
 }
 
 .footer2 {
@@ -217,7 +216,7 @@ footer {
 }
 
 .footer0:hover {
-  color: rgb(243, 168, 7);
+  color: rgb(42, 137, 247);
 }
 
 .footer2 .heading {
@@ -234,7 +233,7 @@ footer {
 }
 
 .footer2 .heading:hover {
-  color: rgb(243, 168, 7);
+  color: rgb(42, 137, 247);
 }
 
 .footer2 .div:hover {
